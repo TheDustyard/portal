@@ -24,7 +24,7 @@ async function getImages() {
                 })
             });
         });
-        request.open("GET", "../images/images.json");
+        request.open("GET", "images/images.json");
         request.send();
     });
 }

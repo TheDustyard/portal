@@ -46,7 +46,7 @@ async function getImages(): Promise<Images> {
                 })
             });
         });
-        request.open("GET", "../images/images.json");
+        request.open("GET", "images/images.json");
         request.send();
     });
 }
