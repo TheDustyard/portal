@@ -10,21 +10,21 @@ async function getImages() {
             resolve({
                 desktop: desktopimages.map((x, i) => {
                     return {
-                        file: `/images/desktop/${desktopimages[i]}.png`,
+                        file: `../images/desktop/${desktopimages[i]}.png`,
                         name: desktopimages[i],
                         author: desktopauthors[i]
                     };
                 }),
                 mobile: mobileimages.map((x, i) => {
                     return {
-                        file: `/images/mobile/${mobileimages[i]}.png`,
+                        file: `../images/mobile/${mobileimages[i]}.png`,
                         name: mobileimages[i],
                         author: mobileauthors[i]
                     };
                 })
             });
         });
-        request.open("GET", "images/images.json");
+        request.open("GET", "../images/images.json");
         request.send();
     });
 }

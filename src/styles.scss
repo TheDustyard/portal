@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Open-Sans';
-    src: url('/OpenSans.ttf') format('truetype');
+    src: url('../OpenSans.ttf') format('truetype');
 }
 
 body, html, .bg {
@@ -28,11 +28,7 @@ body {
 
 
     color: white;
-    text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .login {
