@@ -53,13 +53,33 @@ body {
 
         input {
             width: 100%;
+            padding: 1px;
+            border: 1px solid #000000;
+            background-color: #FFFFFF;
+            color: #303030;
+            font: "Open Sans";
+            line-height: normal;
+            text-rendering: optimizeLegibility;
+            line-height: normal;
+            text-align: start;
+            text-transform: none;
+            word-spacing: normal;
+            letter-spacing: normal;
+            cursor: text;
+            text-indent: 0;
+            text-shadow: none;
         }
     }
 
-    input[type=submit] {
+    .submit {
         float: right;
         margin-top: 3px;
         display: block;
+        background: transparent;
+        border: none;
+        color: #FFFFFF;
+        font-size: 20px;
+        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     }
 }
 
