@@ -84,10 +84,18 @@ body {
         text-align: left;
         padding: 0px;
         padding-left: 10px;
-
         &:hover {
             color: #325e28;
         }
+    }
+
+    p {
+        font-size: 10px;
+        white-space: normal;
+    }
+
+    a {
+        color: #FFFFFF;
     }
 }
 
