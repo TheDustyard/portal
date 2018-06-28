@@ -38,40 +38,34 @@ body {
 
     transform: translate(-50%, -50%);
 
-    label {
-        display: block;
+    .title {
+        font-size: 30px;
 
-        .title {
-            font-size: 30px;
+        padding-left: 3px;
+        padding-top: 4px;
+    }
 
-            padding-left: 3px;
-            padding-top: 4px;
-        }
-
-        input {
-            width: calc(100% - 14px);
-            padding: 6px;
-            font-size: 20px;
-            border: 1px solid #000000;
-            border-radius: 3px;
-            background-color: #FFFFFF;
-            color: #303030;
-            font-family: "Open Sans";
-            line-height: normal;
-            text-rendering: optimizeLegibility;
-            line-height: normal;
-            text-align: start;
-            text-transform: none;
-            word-spacing: normal;
-            letter-spacing: normal;
-            cursor: text;
-            text-indent: 0;
-            text-shadow: none;
-        }
-        input[name="password"] {
-            width: calc(100% - 60px);
-            float: left;
-        }
+    input {
+        width: calc(100% - 14px);
+        padding: 6px;
+        font-size: 20px;
+        border: 1px solid #000000;
+        border-radius: 3px;
+        background-color: #FFFFFF;
+        color: #303030;
+        font-family: "Open Sans";
+        line-height: normal;
+        text-rendering: optimizeLegibility;
+        line-height: normal;
+        text-align: start;
+        text-transform: none;
+        word-spacing: normal;
+        letter-spacing: normal;
+        cursor: text;
+        text-indent: 0;
+        text-shadow: none;
+        width: calc(100% - 60px);
+        float: left;
     }
 
     .submit {
@@ -80,8 +74,9 @@ body {
         background: transparent;
         border: none;
         color: #FFFFFF;
-        font-size: 30px;
+        font-size: 25px;
         text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        margin-top: 3px;
 
         &:hover {
             color: #325e28;
