@@ -47,10 +47,11 @@ body {
 
         padding-left: 3px;
         padding-top: 4px;
+        
+        width: calc(100% - 50px);
     }
 
     input {
-        width: calc(100% - 14px);
         padding: 6px;
         font-size: 20px;
         border: 1px solid #000000;
@@ -104,6 +105,31 @@ body {
     top: 10px;
     left: 10px;
     height: 100px;
+    width: 100px;
+}
+
+.head {
+    font-size: 30px;
+
+    width: 100%;
+    padding-top: 25px;
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) { 
+    .logo {
+        height: 50px;
+        width: 50px;
+    }
+    .head {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .head {
+        font-size: 15px;
+    }
 }
 
 .credits {
